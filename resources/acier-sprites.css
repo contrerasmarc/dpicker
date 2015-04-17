@@ -1,0 +1,287 @@
+/*=== Marcos Contreras 11-02-2014 ===*/
+/*=== TOOLBAR RIGHT BUTTONS ===*/
+
+.help {
+	@include slice('images/acier-sprites.png', $top:180);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:180, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:180, $left:72);
+		};
+	cursor:pointer;
+};
+
+.preferences {
+	@include slice('images/acier-sprites.png', $top:108);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:108, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:108, $left:72);
+		};
+	cursor:pointer;
+};
+
+.logout {
+	@include slice('images/acier-sprites.png', $top:72);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:72, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:72, $left:72);
+		};
+	cursor:pointer;
+};
+
+
+/*=== COMMON BUTTONS ===*/ 
+
+.delete-button {
+	@include slice('images/acier-sprites.png');
+	&:hover {
+		@include slice('images/acier-sprites.png', $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $left:72);
+		};
+	cursor:pointer;
+};
+
+.search-button {
+	@include slice('images/acier-sprites.png', $top:36);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:36, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:36, $left:72);
+		};
+	cursor:pointer;
+};
+
+.select-tool-button {
+	@include slice('images/acier-sprites.png', $top:144);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:144, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:144, $left:72);
+		};
+};
+
+.acier-button {
+	@include slice('images/acier-sprites.png', $top:144);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:144, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:144, $left:72);
+		};
+	cursor:pointer;
+};
+
+.dus-home {
+	@include slice('images/acier-sprites.png', $top:216);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:216, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:216, $left:72);
+		};
+	cursor:pointer;
+};
+
+.edit-button {
+	@include slice('images/acier-sprites.png', $top:288);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:288, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:288, $left:72);
+		};
+	cursor:pointer;
+};
+
+.edit-button-blue {
+	@include slice('images/acier-sprites.png', $top:288, $left:108 );
+	&:active {
+		@include slice('images/acier-sprites.png', $top:288, $left:144);
+		};
+	cursor:pointer;
+};
+
+.add-button {
+	@include slice('images/acier-sprites.png', $top:252);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:252, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:252, $left:72);
+		};
+	cursor:pointer;
+};
+
+.duplicate-button {
+	@include slice('images/acier-sprites.png', $top:324);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:324, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:324, $left:72);
+		};
+	cursor:pointer;
+};
+
+.calendar {
+	@include slice('images/acier-sprites.png', $top:396);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:396, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:396, $left:72);
+		};
+	cursor:pointer;
+};
+
+.load-database {
+	@include slice('images/acier-sprites.png', $top:432);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:432, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:432, $left:72);
+		};
+	cursor:pointer;
+};
+
+.selection {
+	@include slice('images/acier-sprites.png', $top:468);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:468, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:468, $left:72);
+		};
+	cursor:pointer;
+}; 
+
+.analyse {
+	@include slice('images/acier-sprites.png', $top:504);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:504, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:504, $left:72);
+		};
+	cursor:pointer;
+}; 
+
+.load-data {
+	@include slice('images/acier-sprites.png', $top:540);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:540, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:540, $left:72);
+		};
+	cursor:pointer;
+};
+
+.upload-cloud {
+	@include slice('images/acier-sprites.png', $top:576);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:576, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:576, $left:72);
+		};
+	cursor:pointer;
+};
+
+.dog {
+	@include slice('images/acier-sprites.png', $top:612);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:612, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:612, $left:72);
+		};
+	cursor:pointer;
+};
+
+.print {
+	@include slice('images/acier-sprites.png', $top:648);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:648, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:648, $left:72);
+		};
+	cursor:pointer;
+};
+
+.linkedin {
+	@include slice('images/acier-sprites.png', $top:684);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:684, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:684, $left:72);
+		};
+	cursor:pointer;
+};
+
+.facebook {
+	@include slice('images/acier-sprites.png', $top:720);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:720, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:720, $left:72);
+		};
+	cursor:pointer;
+};
+
+.twitter {
+	@include slice('images/acier-sprites.png', $top:756);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:756, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:756, $left:72);
+		};
+	cursor:pointer;
+};
+
+.email {
+	@include slice('images/acier-sprites.png', $top:792);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:792, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:792, $left:72);
+		};
+	cursor:pointer;
+};
+
+.save {
+	@include slice('images/acier-sprites.png', $top:828);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:828, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:828, $left:72);
+		};
+	cursor:pointer;
+};
+
+.sms {
+	@include slice('images/acier-sprites.png', $top:864);
+	&:hover {
+		@include slice('images/acier-sprites.png', $top:864, $left:36);
+		};	
+	&:active {
+		@include slice('images/acier-sprites.png', $top:864, $left:72);
+		};
+	cursor:pointer;
+};

@@ -1,0 +1,36 @@
+/*=== Marcos Contreras 11-02-2014 ===*/
+.adistance { 
+	width: 24px;
+	height: 24px;
+	@include slice('images/get-data-sprites.png', $top:30, $left: 1 );
+};
+.atime { 
+	width: 24px;
+	height: 24px;
+	@include slice('images/get-data-sprites.png', $top:60, $left: 1 );
+};
+.aspeed { 
+	width: 24px;
+	height: 24px;
+	@include slice('images/get-data-sprites.png', $top:90, $left: 1 );
+};
+.apayload { 
+	width: 24px;
+	height: 24px;
+	@include slice('images/get-data-sprites.png', $top:120, $left: 1 );
+};
+.avehicle { 
+	width: 24px;
+	height: 24px;
+	@include slice('images/get-data-sprites.png', $top:150, $left: 1 );
+};
+.atire { 
+	width: 24px;
+	height: 24px;
+	@include slice('images/get-data-sprites.png', $top:180, $left: 1 );
+};
+.adate { 
+	width: 24px;
+	height: 24px;
+	@include slice('images/get-data-sprites.png', $top:210, $left: 1 );
+};
